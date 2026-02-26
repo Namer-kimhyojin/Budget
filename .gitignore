@@ -5,7 +5,7 @@ env/
 ENV/
 build/
 develop-eggs/
-dist/
+# dist/ 제외 안 함 — React 빌드 결과물 포함 필요 (PythonAnywhere)
 downloads/
 eggs/
 .eggs/
@@ -76,7 +76,8 @@ lerna-debug.log*
 
 # Frontend
 node_modules
-dist
+# dist/ 는 PythonAnywhere 배포를 위해 포함 (빌드 환경 없음)
+# dist
 dist-ssr
 *.local
 

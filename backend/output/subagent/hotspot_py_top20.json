@@ -1,0 +1,122 @@
+﻿[
+    {
+        "File":  "backend\\budget_mgmt\\views.py",
+        "Lines":  2599,
+        "Defs":  90,
+        "Classes":  28
+    },
+    {
+        "File":  "backend\\budget_mgmt\\tests.py",
+        "Lines":  1160,
+        "Defs":  45,
+        "Classes":  11
+    },
+    {
+        "File":  "backend\\budget_mgmt\\services\\budget_book_export.py",
+        "Lines":  928,
+        "Defs":  42,
+        "Classes":  1
+    },
+    {
+        "File":  "backend\\scripts\\subagent_mvp.py",
+        "Lines":  521,
+        "Defs":  23,
+        "Classes":  8
+    },
+    {
+        "File":  "backend\\budget_mgmt\\serializers.py",
+        "Lines":  417,
+        "Defs":  25,
+        "Classes":  28
+    },
+    {
+        "File":  "backend\\budget_mgmt\\models.py",
+        "Lines":  384,
+        "Defs":  14,
+        "Classes":  22
+    },
+    {
+        "File":  "backend\\scripts\\hotspot_split_planner.py",
+        "Lines":  327,
+        "Defs":  9,
+        "Classes":  1
+    },
+    {
+        "File":  "backend\\budget_mgmt\\management\\commands\\init_budget_subjects.py",
+        "Lines":  235,
+        "Defs":  3,
+        "Classes":  1
+    },
+    {
+        "File":  "backend\\ibms_backend\\settings.py",
+        "Lines":  189,
+        "Defs":  0,
+        "Classes":  0
+    },
+    {
+        "File":  "backend\\budget_mgmt\\management\\commands\\replace_budget_subjects_from_json.py",
+        "Lines":  170,
+        "Defs":  7,
+        "Classes":  1
+    },
+    {
+        "File":  "backend\\budget_mgmt\\management\\commands\\audit_budget_book_export.py",
+        "Lines":  168,
+        "Defs":  3,
+        "Classes":  1
+    },
+    {
+        "File":  "backend\\budget_mgmt\\management\\commands\\seed_data.py",
+        "Lines":  129,
+        "Defs":  1,
+        "Classes":  1
+    },
+    {
+        "File":  "backend\\budget_mgmt\\migrations\\0001_initial.py",
+        "Lines":  119,
+        "Defs":  0,
+        "Classes":  1
+    },
+    {
+        "File":  "backend\\budget_mgmt\\management\\commands\\export_macro_input_data.py",
+        "Lines":  113,
+        "Defs":  3,
+        "Classes":  1
+    },
+    {
+        "File":  "backend\\budget_mgmt\\migrations\\0029_alter_approvallog_options_approvallog_action_and_more.py",
+        "Lines":  95,
+        "Defs":  0,
+        "Classes":  1
+    },
+    {
+        "File":  "backend\\budget_mgmt\\erpnext_client.py",
+        "Lines":  91,
+        "Defs":  9,
+        "Classes":  3
+    },
+    {
+        "File":  "backend\\update_descriptions.py",
+        "Lines":  86,
+        "Defs":  1,
+        "Classes":  0
+    },
+    {
+        "File":  "backend\\budget_mgmt\\middleware.py",
+        "Lines":  82,
+        "Defs":  5,
+        "Classes":  1
+    },
+    {
+        "File":  "backend\\budget_mgmt\\migrations\\0004_budgetentry_budget_category_and_more.py",
+        "Lines":  75,
+        "Defs":  0,
+        "Classes":  1
+    },
+    {
+        "File":  "backend\\budget_mgmt\\calculation.py",
+        "Lines":  72,
+        "Defs":  2,
+        "Classes":  1
+    }
+]

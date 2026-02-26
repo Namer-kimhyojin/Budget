@@ -1,0 +1,123 @@
+{
+  "goal": "split overloaded files for maintainability",
+  "tasks": [
+    {
+      "task_id": "T01",
+      "title": "Split hotspot: backend/budget_mgmt/views.py",
+      "detail": "Refactor overloaded file backend/budget_mgmt/views.py. Current lines=1953, score=4318.8. Follow split plan and keep behavior unchanged.",
+      "owner": "backend-worker",
+      "actions": [
+        {
+          "type": "write_file",
+          "path": "docs/maintenance/split_plans/views.plan.md",
+          "content": "# Split Plan: backend/budget_mgmt/views.py\n\n## Why\n- Lines: 1953\n- Non-empty lines: 1682\n- Function-like blocks: 97\n- Hotspot score: 4318.8\n\n## Recommended Split\n- Split by domain into package: views/auth.py, views/organization.py, views/subjects.py, views/entries.py, views/versions.py, views/details.py, views/dashboard.py.\n- Move shared helper functions to views/common.py.\n- Keep API class names unchanged to avoid URL router churn.\n- After split, switch imports in backend/budget_mgmt/urls.py to package-level exports.\n\n## Definition of Done\n- [ ] Original behavior preserved\n- [ ] File reduced to target size\n- [ ] Lint/test/build commands pass\n"
+        }
+      ]
+    },
+    {
+      "task_id": "T02",
+      "title": "Split hotspot: src/pages/menu/pages/DepartmentApproval/EntryDetailEditor.jsx",
+      "detail": "Refactor overloaded file src/pages/menu/pages/DepartmentApproval/EntryDetailEditor.jsx. Current lines=738, score=1212.8. Follow split plan and keep behavior unchanged.",
+      "owner": "frontend-worker",
+      "actions": [
+        {
+          "type": "write_file",
+          "path": "docs/maintenance/split_plans/EntryDetailEditor.plan.md",
+          "content": "# Split Plan: src/pages/menu/pages/DepartmentApproval/EntryDetailEditor.jsx\n\n## Why\n- Lines: 738\n- Non-empty lines: 696\n- Function-like blocks: 14\n- Hotspot score: 1212.8\n\n## Recommended Split\n- Split editor table rows into components/EntryDetailRow.jsx.\n- Extract edit state transitions into hooks/useEntryDetailDraft.js.\n- Extract validation/format helpers into helpers/detailValidation.js.\n- Keep rendering component simple and declarative.\n\n## Definition of Done\n- [ ] Original behavior preserved\n- [ ] File reduced to target size\n- [ ] Lint/test/build commands pass\n"
+        }
+      ]
+    },
+    {
+      "task_id": "T03",
+      "title": "Split hotspot: src/pages/core/TraditionalLedgerView.jsx",
+      "detail": "Refactor overloaded file src/pages/core/TraditionalLedgerView.jsx. Current lines=689, score=1140.4. Follow split plan and keep behavior unchanged.",
+      "owner": "frontend-worker",
+      "actions": [
+        {
+          "type": "write_file",
+          "path": "docs/maintenance/split_plans/TraditionalLedgerView.plan.md",
+          "content": "# Split Plan: src/pages/core/TraditionalLedgerView.jsx\n\n## Why\n- Lines: 689\n- Non-empty lines: 634\n- Function-like blocks: 5\n- Hotspot score: 1140.4\n\n## Recommended Split\n- Extract state/effects into hooks/useTraditionalLedgerState.js.\n- Extract workflow/log behavior into hooks/useTraditionalLedgerWorkflow.js.\n- Extract large UI blocks into components: LedgerToolbar.jsx, LedgerTable.jsx, LogPopover.jsx, HierarchyActionMenu.jsx.\n- Keep TraditionalLedgerView.jsx as composition layer only (<400 lines target).\n\n## Definition of Done\n- [ ] Original behavior preserved\n- [ ] File reduced to target size\n- [ ] Lint/test/build commands pass\n"
+        }
+      ]
+    },
+    {
+      "task_id": "T04",
+      "title": "Split hotspot: src/App.jsx",
+      "detail": "Refactor overloaded file src/App.jsx. Current lines=535, score=1002.0. Follow split plan and keep behavior unchanged.",
+      "owner": "frontend-worker",
+      "actions": [
+        {
+          "type": "write_file",
+          "path": "docs/maintenance/split_plans/App.plan.md",
+          "content": "# Split Plan: src/App.jsx\n\n## Why\n- Lines: 535\n- Non-empty lines: 489\n- Function-like blocks: 18\n- Hotspot score: 1002.0\n\n## Recommended Split\n- Split route/menu composition into app/AppRoutes.jsx.\n- Move bootstrapping state to app/useAppBootstrap.js.\n- Move API client/auth glue into app/useSession.js.\n- Keep App.jsx as top-level shell with minimal wiring.\n\n## Definition of Done\n- [ ] Original behavior preserved\n- [ ] File reduced to target size\n- [ ] Lint/test/build commands pass\n"
+        }
+      ]
+    },
+    {
+      "task_id": "T05",
+      "title": "Split hotspot: src/pages/menu/pages/DepartmentApproval/index.jsx",
+      "detail": "Refactor overloaded file src/pages/menu/pages/DepartmentApproval/index.jsx. Current lines=503, score=866.8. Follow split plan and keep behavior unchanged.",
+      "owner": "frontend-worker",
+      "actions": [
+        {
+          "type": "write_file",
+          "path": "docs/maintenance/split_plans/index.plan.md",
+          "content": "# Split Plan: src/pages/menu/pages/DepartmentApproval/index.jsx\n\n## Why\n- Lines: 503\n- Non-empty lines: 462\n- Function-like blocks: 5\n- Hotspot score: 866.8\n\n## Recommended Split\n- Extract filtering and scope logic to hooks/useDepartmentScope.js.\n- Extract log loading/tracking to hooks/useEntryLogs.js.\n- Extract modal/draft handlers to hooks/useDetailDraft.js.\n- Keep page component focused on layout wiring and data flow.\n\n## Definition of Done\n- [ ] Original behavior preserved\n- [ ] File reduced to target size\n- [ ] Lint/test/build commands pass\n"
+        }
+      ]
+    },
+    {
+      "task_id": "T06",
+      "title": "Split hotspot: src/pages/core/SubjectManagementView.jsx",
+      "detail": "Refactor overloaded file src/pages/core/SubjectManagementView.jsx. Current lines=555, score=746.0. Follow split plan and keep behavior unchanged.",
+      "owner": "frontend-worker",
+      "actions": [
+        {
+          "type": "write_file",
+          "path": "docs/maintenance/split_plans/SubjectManagementView.plan.md",
+          "content": "# Split Plan: src/pages/core/SubjectManagementView.jsx\n\n## Why\n- Lines: 555\n- Non-empty lines: 522\n- Function-like blocks: 1\n- Hotspot score: 746.0\n\n## Recommended Split\n- Extract organization tree operations into hooks/useOrgTreeActions.js.\n- Extract subject row editing state into hooks/useSubjectRowDraft.js.\n- Move modal orchestration to components/SubjectManagementModals.jsx.\n- Keep SubjectManagementView.jsx as container/composer.\n\n## Definition of Done\n- [ ] Original behavior preserved\n- [ ] File reduced to target size\n- [ ] Lint/test/build commands pass\n"
+        }
+      ]
+    },
+    {
+      "task_id": "T07",
+      "title": "Verification: backend tests",
+      "detail": "Run backend test suite after hotspot refactor tasks.",
+      "owner": "backend-worker",
+      "actions": [
+        {
+          "type": "run_cmd",
+          "cwd": ".",
+          "command": "powershell -ExecutionPolicy Bypass -File backend/scripts/venv.ps1",
+          "timeout_ms": 600000
+        },
+        {
+          "type": "run_cmd",
+          "cwd": ".",
+          "command": "backend\\.venv\\Scripts\\python.exe backend/manage.py test",
+          "timeout_ms": 600000
+        }
+      ]
+    },
+    {
+      "task_id": "T08",
+      "title": "Verification: frontend lint/build",
+      "detail": "Run frontend lint/build after hotspot refactor tasks.",
+      "owner": "frontend-worker",
+      "actions": [
+        {
+          "type": "run_cmd",
+          "cwd": ".",
+          "command": "npm run lint:stabilize",
+          "timeout_ms": 600000
+        },
+        {
+          "type": "run_cmd",
+          "cwd": ".",
+          "command": "npm run build",
+          "timeout_ms": 600000
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,162 @@
+﻿[
+    {
+        "File":  "backend\\budget_mgmt\\views.py",
+        "Lines":  2599,
+        "FuncLike":  118,
+        "Imports":  30,
+        "Hooks":  0,
+        "Score":  5660.4
+    },
+    {
+        "File":  "backend\\budget_mgmt\\tests.py",
+        "Lines":  1160,
+        "FuncLike":  56,
+        "Imports":  12,
+        "Hooks":  0,
+        "Score":  2454
+    },
+    {
+        "File":  "src\\pages\\core\\traditionalLedger\\components\\LedgerSheetSection.jsx",
+        "Lines":  1184,
+        "FuncLike":  20,
+        "Imports":  6,
+        "Hooks":  25,
+        "Score":  2076.4
+    },
+    {
+        "File":  "backend\\budget_mgmt\\services\\budget_book_export.py",
+        "Lines":  928,
+        "FuncLike":  43,
+        "Imports":  12,
+        "Hooks":  0,
+        "Score":  1900.8
+    },
+    {
+        "File":  "src\\App.jsx",
+        "Lines":  686,
+        "FuncLike":  21,
+        "Imports":  7,
+        "Hooks":  26,
+        "Score":  1299.6
+    },
+    {
+        "File":  "src\\pages\\core\\traditionalLedger\\hooks\\useTraditionalLedgerController.js",
+        "Lines":  732,
+        "FuncLike":  9,
+        "Imports":  16,
+        "Hooks":  24,
+        "Score":  1215.2
+    },
+    {
+        "File":  "src\\pages\\menu\\pages\\DepartmentApproval\\EntryDetailEditor.jsx",
+        "Lines":  738,
+        "FuncLike":  14,
+        "Imports":  5,
+        "Hooks":  9,
+        "Score":  1212.8
+    },
+    {
+        "File":  "backend\\budget_mgmt\\serializers.py",
+        "Lines":  417,
+        "FuncLike":  53,
+        "Imports":  3,
+        "Hooks":  0,
+        "Score":  1205.2
+    },
+    {
+        "File":  "src\\pages\\core\\SubjectManagementView.jsx",
+        "Lines":  699,
+        "FuncLike":  9,
+        "Imports":  17,
+        "Hooks":  8,
+        "Score":  1100.4
+    },
+    {
+        "File":  "src\\pages\\core\\traditionalLedger\\hooks\\useTraditionalLedgerDerivedData.js",
+        "Lines":  635,
+        "FuncLike":  2,
+        "Imports":  2,
+        "Hooks":  30,
+        "Score":  958
+    },
+    {
+        "File":  "backend\\budget_mgmt\\models.py",
+        "Lines":  384,
+        "FuncLike":  36,
+        "Imports":  6,
+        "Hooks":  0,
+        "Score":  920.4
+    },
+    {
+        "File":  "src\\pages\\core\\subjectManagement\\hooks\\useSubjectManagement.js",
+        "Lines":  447,
+        "FuncLike":  17,
+        "Imports":  2,
+        "Hooks":  33,
+        "Score":  879.2
+    },
+    {
+        "File":  "src\\pages\\menu\\pages\\DepartmentApproval\\index.jsx",
+        "Lines":  502,
+        "FuncLike":  5,
+        "Imports":  12,
+        "Hooks":  45,
+        "Score":  867.2
+    },
+    {
+        "File":  "src\\pages\\menu\\pages\\DepartmentApproval\\CommentThread.jsx",
+        "Lines":  488,
+        "FuncLike":  5,
+        "Imports":  2,
+        "Hooks":  20,
+        "Score":  724.8
+    },
+    {
+        "File":  "src\\pages\\core\\traditionalLedger\\components\\QuickAddModal.jsx",
+        "Lines":  453,
+        "FuncLike":  6,
+        "Imports":  4,
+        "Hooks":  16,
+        "Score":  670.8
+    },
+    {
+        "File":  "src\\pages\\core\\traditionalLedger\\components\\HierarchyActionPopover.jsx",
+        "Lines":  434,
+        "FuncLike":  9,
+        "Imports":  4,
+        "Hooks":  0,
+        "Score":  618.4
+    },
+    {
+        "File":  "src\\pages\\menu\\pages\\VersionIntake\\index.jsx",
+        "Lines":  332,
+        "FuncLike":  12,
+        "Imports":  8,
+        "Hooks":  18,
+        "Score":  588
+    },
+    {
+        "File":  "src\\pages\\core\\traditionalLedger\\hooks\\useLedgerEntryActions.js",
+        "Lines":  417,
+        "FuncLike":  4,
+        "Imports":  2,
+        "Hooks":  15,
+        "Score":  577.2
+    },
+    {
+        "File":  "src\\pages\\menu\\pages\\HQReview\\index.jsx",
+        "Lines":  390,
+        "FuncLike":  7,
+        "Imports":  7,
+        "Hooks":  12,
+        "Score":  574
+    },
+    {
+        "File":  "src\\pages\\core\\traditionalLedger\\hooks\\useLedgerPopoverState.js",
+        "Lines":  315,
+        "FuncLike":  9,
+        "Imports":  1,
+        "Hooks":  30,
+        "Score":  563
+    }
+]

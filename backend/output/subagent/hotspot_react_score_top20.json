@@ -1,0 +1,182 @@
+﻿[
+    {
+        "File":  "src\\pages\\core\\traditionalLedger\\components\\LedgerSheetSection.jsx",
+        "Lines":  1184,
+        "useState":  5,
+        "useEffect":  1,
+        "useMemo":  0,
+        "useCallback":  19,
+        "Score":  1522
+    },
+    {
+        "File":  "src\\pages\\menu\\pages\\DepartmentApproval\\index.jsx",
+        "Lines":  502,
+        "useState":  14,
+        "useEffect":  8,
+        "useMemo":  19,
+        "useCallback":  4,
+        "Score":  1152
+    },
+    {
+        "File":  "src\\pages\\core\\traditionalLedger\\hooks\\useTraditionalLedgerController.js",
+        "Lines":  732,
+        "useState":  19,
+        "useEffect":  2,
+        "useMemo":  3,
+        "useCallback":  0,
+        "Score":  1144
+    },
+    {
+        "File":  "src\\App.jsx",
+        "Lines":  686,
+        "useState":  13,
+        "useEffect":  6,
+        "useMemo":  4,
+        "useCallback":  3,
+        "Score":  1116
+    },
+    {
+        "File":  "src\\pages\\core\\traditionalLedger\\hooks\\useTraditionalLedgerDerivedData.js",
+        "Lines":  635,
+        "useState":  0,
+        "useEffect":  0,
+        "useMemo":  28,
+        "useCallback":  2,
+        "Score":  939
+    },
+    {
+        "File":  "src\\pages\\core\\subjectManagement\\hooks\\useSubjectManagement.js",
+        "Lines":  447,
+        "useState":  12,
+        "useEffect":  1,
+        "useMemo":  4,
+        "useCallback":  16,
+        "Score":  915
+    },
+    {
+        "File":  "src\\pages\\menu\\pages\\DepartmentApproval\\EntryDetailEditor.jsx",
+        "Lines":  738,
+        "useState":  5,
+        "useEffect":  0,
+        "useMemo":  4,
+        "useCallback":  0,
+        "Score":  868
+    },
+    {
+        "File":  "src\\pages\\core\\SubjectManagementView.jsx",
+        "Lines":  699,
+        "useState":  6,
+        "useEffect":  2,
+        "useMemo":  0,
+        "useCallback":  0,
+        "Score":  847
+    },
+    {
+        "File":  "src\\pages\\menu\\pages\\DepartmentApproval\\CommentThread.jsx",
+        "Lines":  488,
+        "useState":  10,
+        "useEffect":  4,
+        "useMemo":  1,
+        "useCallback":  5,
+        "Score":  818
+    },
+    {
+        "File":  "src\\pages\\core\\traditionalLedger\\hooks\\useLedgerPopoverState.js",
+        "Lines":  315,
+        "useState":  16,
+        "useEffect":  3,
+        "useMemo":  0,
+        "useCallback":  11,
+        "Score":  795
+    },
+    {
+        "File":  "src\\pages\\core\\traditionalLedger\\components\\QuickAddModal.jsx",
+        "Lines":  453,
+        "useState":  4,
+        "useEffect":  3,
+        "useMemo":  9,
+        "useCallback":  0,
+        "Score":  675
+    },
+    {
+        "File":  "src\\pages\\menu\\pages\\VersionIntake\\index.jsx",
+        "Lines":  332,
+        "useState":  13,
+        "useEffect":  3,
+        "useMemo":  1,
+        "useCallback":  1,
+        "Score":  648
+    },
+    {
+        "File":  "src\\pages\\core\\traditionalLedger\\hooks\\useLedgerEntryActions.js",
+        "Lines":  417,
+        "useState":  0,
+        "useEffect":  0,
+        "useMemo":  0,
+        "useCallback":  15,
+        "Score":  597
+    },
+    {
+        "File":  "src\\pages\\menu\\pages\\HQReview\\index.jsx",
+        "Lines":  390,
+        "useState":  5,
+        "useEffect":  0,
+        "useMemo":  7,
+        "useCallback":  0,
+        "Score":  550
+    },
+    {
+        "File":  "src\\pages\\core\\subjectManagement\\components\\BulkInputTable.jsx",
+        "Lines":  386,
+        "useState":  3,
+        "useEffect":  0,
+        "useMemo":  0,
+        "useCallback":  9,
+        "Score":  548
+    },
+    {
+        "File":  "src\\pages\\menu\\pages\\UserAccess\\index.jsx",
+        "Lines":  273,
+        "useState":  9,
+        "useEffect":  1,
+        "useMemo":  1,
+        "useCallback":  1,
+        "Score":  477
+    },
+    {
+        "File":  "src\\pages\\core\\traditionalLedger\\components\\LedgerHeaderPanel.jsx",
+        "Lines":  420,
+        "useState":  2,
+        "useEffect":  0,
+        "useMemo":  0,
+        "useCallback":  0,
+        "Score":  456
+    },
+    {
+        "File":  "src\\pages\\menu\\pages\\AuditLog\\index.jsx",
+        "Lines":  201,
+        "useState":  11,
+        "useEffect":  1,
+        "useMemo":  2,
+        "useCallback":  1,
+        "Score":  451
+    },
+    {
+        "File":  "src\\pages\\menu\\pages\\VersionIntake\\VersionList.jsx",
+        "Lines":  350,
+        "useState":  2,
+        "useEffect":  0,
+        "useMemo":  6,
+        "useCallback":  0,
+        "Score":  446
+    },
+    {
+        "File":  "src\\pages\\menu\\pages\\Dashboard\\index.jsx",
+        "Lines":  345,
+        "useState":  2,
+        "useEffect":  0,
+        "useMemo":  6,
+        "useCallback":  0,
+        "Score":  441
+    }
+]

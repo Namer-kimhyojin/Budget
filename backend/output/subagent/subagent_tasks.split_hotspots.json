@@ -1,0 +1,163 @@
+{
+  "goal": "split overloaded files for maintainability",
+  "tasks": [
+    {
+      "task_id": "T01",
+      "title": "Split hotspot: backend/staticfiles/admin/js/vendor/jquery/jquery.js",
+      "detail": "Refactor overloaded file backend/staticfiles/admin/js/vendor/jquery/jquery.js. Current lines=10965, score=18524.0. Follow split plan and keep behavior unchanged.",
+      "owner": "backend-worker",
+      "actions": [
+        {
+          "type": "write_file",
+          "path": "docs/maintenance/split_plans/jquery.plan.md",
+          "content": "# Split Plan: backend/staticfiles/admin/js/vendor/jquery/jquery.js\n\n## Why\n- Lines: 10965\n- Non-empty lines: 8875\n- Function-like blocks: 85\n- Hotspot score: 18524.0\n\n## Recommended Split\n- Split by endpoint domain into multiple view modules.\n- Extract shared validations/helpers into a common module.\n- Retain public class names and URL behavior.\n\n## Definition of Done\n- [ ] Original behavior preserved\n- [ ] File reduced to target size\n- [ ] Lint/test/build commands pass\n"
+        }
+      ]
+    },
+    {
+      "task_id": "T02",
+      "title": "Split hotspot: backend/staticfiles/admin/js/vendor/select2/select2.full.js",
+      "detail": "Refactor overloaded file backend/staticfiles/admin/js/vendor/select2/select2.full.js. Current lines=6820, score=11654.0. Follow split plan and keep behavior unchanged.",
+      "owner": "backend-worker",
+      "actions": [
+        {
+          "type": "write_file",
+          "path": "docs/maintenance/split_plans/select2.full.plan.md",
+          "content": "# Split Plan: backend/staticfiles/admin/js/vendor/select2/select2.full.js\n\n## Why\n- Lines: 6820\n- Non-empty lines: 5486\n- Function-like blocks: 68\n- Hotspot score: 11654.0\n\n## Recommended Split\n- Split by endpoint domain into multiple view modules.\n- Extract shared validations/helpers into a common module.\n- Retain public class names and URL behavior.\n\n## Definition of Done\n- [ ] Original behavior preserved\n- [ ] File reduced to target size\n- [ ] Lint/test/build commands pass\n"
+        }
+      ]
+    },
+    {
+      "task_id": "T03",
+      "title": "Split hotspot: backend/staticfiles/admin/js/vendor/xregexp/xregexp.js",
+      "detail": "Refactor overloaded file backend/staticfiles/admin/js/vendor/xregexp/xregexp.js. Current lines=4652, score=7681.2. Follow split plan and keep behavior unchanged.",
+      "owner": "backend-worker",
+      "actions": [
+        {
+          "type": "write_file",
+          "path": "docs/maintenance/split_plans/xregexp.plan.md",
+          "content": "# Split Plan: backend/staticfiles/admin/js/vendor/xregexp/xregexp.js\n\n## Why\n- Lines: 4652\n- Non-empty lines: 4409\n- Function-like blocks: 32\n- Hotspot score: 7681.2\n\n## Recommended Split\n- Split by endpoint domain into multiple view modules.\n- Extract shared validations/helpers into a common module.\n- Retain public class names and URL behavior.\n\n## Definition of Done\n- [ ] Original behavior preserved\n- [ ] File reduced to target size\n- [ ] Lint/test/build commands pass\n"
+        }
+      ]
+    },
+    {
+      "task_id": "T04",
+      "title": "Split hotspot: backend/budget_mgmt/views.py",
+      "detail": "Refactor overloaded file backend/budget_mgmt/views.py. Current lines=2599, score=5660.4. Follow split plan and keep behavior unchanged.",
+      "owner": "backend-worker",
+      "actions": [
+        {
+          "type": "write_file",
+          "path": "docs/maintenance/split_plans/views.plan.md",
+          "content": "# Split Plan: backend/budget_mgmt/views.py\n\n## Why\n- Lines: 2599\n- Non-empty lines: 2254\n- Function-like blocks: 118\n- Hotspot score: 5660.4\n\n## Recommended Split\n- Split by domain into package: views/auth.py, views/organization.py, views/subjects.py, views/entries.py, views/versions.py, views/details.py, views/dashboard.py.\n- Move shared helper functions to views/common.py.\n- Keep API class names unchanged to avoid URL router churn.\n- After split, switch imports in backend/budget_mgmt/urls.py to package-level exports.\n\n## Definition of Done\n- [ ] Original behavior preserved\n- [ ] File reduced to target size\n- [ ] Lint/test/build commands pass\n"
+        }
+      ]
+    },
+    {
+      "task_id": "T05",
+      "title": "Split hotspot: backend/staticfiles/rest_framework/js/coreapi-0.1.1.js",
+      "detail": "Refactor overloaded file backend/staticfiles/rest_framework/js/coreapi-0.1.1.js. Current lines=2043, score=3814.8. Follow split plan and keep behavior unchanged.",
+      "owner": "backend-worker",
+      "actions": [
+        {
+          "type": "write_file",
+          "path": "docs/maintenance/split_plans/coreapi-0.1.1.plan.md",
+          "content": "# Split Plan: backend/staticfiles/rest_framework/js/coreapi-0.1.1.js\n\n## Why\n- Lines: 2043\n- Non-empty lines: 1694\n- Function-like blocks: 54\n- Hotspot score: 3814.8\n\n## Recommended Split\n- Split by endpoint domain into multiple view modules.\n- Extract shared validations/helpers into a common module.\n- Retain public class names and URL behavior.\n\n## Definition of Done\n- [ ] Original behavior preserved\n- [ ] File reduced to target size\n- [ ] Lint/test/build commands pass\n"
+        }
+      ]
+    },
+    {
+      "task_id": "T06",
+      "title": "Split hotspot: backend/budget_mgmt/tests.py",
+      "detail": "Refactor overloaded file backend/budget_mgmt/tests.py. Current lines=1160, score=2456.0. Follow split plan and keep behavior unchanged.",
+      "owner": "backend-worker",
+      "actions": [
+        {
+          "type": "write_file",
+          "path": "docs/maintenance/split_plans/tests.plan.md",
+          "content": "# Split Plan: backend/budget_mgmt/tests.py\n\n## Why\n- Lines: 1160\n- Non-empty lines: 1025\n- Function-like blocks: 56\n- Hotspot score: 2456.0\n\n## Recommended Split\n- Split by endpoint domain into multiple view modules.\n- Extract shared validations/helpers into a common module.\n- Retain public class names and URL behavior.\n\n## Definition of Done\n- [ ] Original behavior preserved\n- [ ] File reduced to target size\n- [ ] Lint/test/build commands pass\n"
+        }
+      ]
+    },
+    {
+      "task_id": "T07",
+      "title": "Split hotspot: src/pages/core/traditionalLedger/components/LedgerSheetSection.jsx",
+      "detail": "Refactor overloaded file src/pages/core/traditionalLedger/components/LedgerSheetSection.jsx. Current lines=1184, score=2074.4. Follow split plan and keep behavior unchanged.",
+      "owner": "frontend-worker",
+      "actions": [
+        {
+          "type": "write_file",
+          "path": "docs/maintenance/split_plans/LedgerSheetSection.plan.md",
+          "content": "# Split Plan: src/pages/core/traditionalLedger/components/LedgerSheetSection.jsx\n\n## Why\n- Lines: 1184\n- Non-empty lines: 1114\n- Function-like blocks: 20\n- Hotspot score: 2074.4\n\n## Recommended Split\n- Split state/effects into one or more custom hooks.\n- Split render-heavy sections into dedicated components.\n- Keep the page/container file focused on data wiring.\n\n## Definition of Done\n- [ ] Original behavior preserved\n- [ ] File reduced to target size\n- [ ] Lint/test/build commands pass\n"
+        }
+      ]
+    },
+    {
+      "task_id": "T08",
+      "title": "Split hotspot: backend/budget_mgmt/services/budget_book_export.py",
+      "detail": "Refactor overloaded file backend/budget_mgmt/services/budget_book_export.py. Current lines=928, score=1902.8. Follow split plan and keep behavior unchanged.",
+      "owner": "backend-worker",
+      "actions": [
+        {
+          "type": "write_file",
+          "path": "docs/maintenance/split_plans/budget_book_export.plan.md",
+          "content": "# Split Plan: backend/budget_mgmt/services/budget_book_export.py\n\n## Why\n- Lines: 928\n- Non-empty lines: 807\n- Function-like blocks: 43\n- Hotspot score: 1902.8\n\n## Recommended Split\n- Split by endpoint domain into multiple view modules.\n- Extract shared validations/helpers into a common module.\n- Retain public class names and URL behavior.\n\n## Definition of Done\n- [ ] Original behavior preserved\n- [ ] File reduced to target size\n- [ ] Lint/test/build commands pass\n"
+        }
+      ]
+    },
+    {
+      "task_id": "T09",
+      "title": "Split hotspot: src/App.jsx",
+      "detail": "Refactor overloaded file src/App.jsx. Current lines=686, score=1299.6. Follow split plan and keep behavior unchanged.",
+      "owner": "frontend-worker",
+      "actions": [
+        {
+          "type": "write_file",
+          "path": "docs/maintenance/split_plans/App.plan.md",
+          "content": "# Split Plan: src/App.jsx\n\n## Why\n- Lines: 686\n- Non-empty lines: 640\n- Function-like blocks: 21\n- Hotspot score: 1299.6\n\n## Recommended Split\n- Split route/menu composition into app/AppRoutes.jsx.\n- Move bootstrapping state to app/useAppBootstrap.js.\n- Move API client/auth glue into app/useSession.js.\n- Keep App.jsx as top-level shell with minimal wiring.\n\n## Definition of Done\n- [ ] Original behavior preserved\n- [ ] File reduced to target size\n- [ ] Lint/test/build commands pass\n"
+        }
+      ]
+    },
+    {
+      "task_id": "T10",
+      "title": "Split hotspot: src/pages/core/traditionalLedger/hooks/useTraditionalLedgerController.js",
+      "detail": "Refactor overloaded file src/pages/core/traditionalLedger/hooks/useTraditionalLedgerController.js. Current lines=732, score=1215.2. Follow split plan and keep behavior unchanged.",
+      "owner": "frontend-worker",
+      "actions": [
+        {
+          "type": "write_file",
+          "path": "docs/maintenance/split_plans/useTraditionalLedgerController.plan.md",
+          "content": "# Split Plan: src/pages/core/traditionalLedger/hooks/useTraditionalLedgerController.js\n\n## Why\n- Lines: 732\n- Non-empty lines: 699\n- Function-like blocks: 9\n- Hotspot score: 1215.2\n\n## Recommended Split\n- Split state/effects into one or more custom hooks.\n- Split render-heavy sections into dedicated components.\n- Keep the page/container file focused on data wiring.\n\n## Definition of Done\n- [ ] Original behavior preserved\n- [ ] File reduced to target size\n- [ ] Lint/test/build commands pass\n"
+        }
+      ]
+    },
+    {
+      "task_id": "T11",
+      "title": "Verification: backend tests",
+      "detail": "Run backend test suite after hotspot refactor tasks.",
+      "owner": "backend-worker",
+      "actions": [
+        {
+          "type": "run_cmd",
+          "cwd": "backend",
+          "command": "py -3 manage.py test",
+          "timeout_ms": 300000
+        }
+      ]
+    },
+    {
+      "task_id": "T12",
+      "title": "Verification: frontend lint/build",
+      "detail": "Run frontend lint/build after hotspot refactor tasks.",
+      "owner": "frontend-worker",
+      "actions": [
+        {
+          "type": "run_cmd",
+          "cwd": ".",
+          "command": "npm run lint && npm run build",
+          "timeout_ms": 300000
+        }
+      ]
+    }
+  ]
+}

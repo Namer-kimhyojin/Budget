@@ -1,0 +1,41 @@
+{
+  "goal": "demo coding workflow",
+  "tasks": [
+    {
+      "task_id": "T01",
+      "title": "Seed artifact",
+      "detail": "Create a draft note file",
+      "owner": "backend-worker",
+      "actions": [
+        {
+          "type": "write_file",
+          "path": "backend/output/subagent/demo_notes.txt",
+          "content": "Sub-agent draft\nSTATUS=TODO\n"
+        }
+      ]
+    },
+    {
+      "task_id": "T02",
+      "title": "Finalize artifact",
+      "detail": "Update note content and run a quick command",
+      "owner": "frontend-worker",
+      "actions": [
+        {
+          "type": "replace_text",
+          "path": "backend/output/subagent/demo_notes.txt",
+          "old": "STATUS=TODO",
+          "new": "STATUS=DONE"
+        },
+        {
+          "type": "append_file",
+          "path": "backend/output/subagent/demo_notes.txt",
+          "content": "Validated by reviewer\n"
+        },
+        {
+          "type": "run_cmd",
+          "command": "py -3 --version"
+        }
+      ]
+    }
+  ]
+}

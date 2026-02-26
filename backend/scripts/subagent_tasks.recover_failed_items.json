@@ -1,0 +1,61 @@
+{
+  "goal": "recover failed verification tasks T07 and T08",
+  "tasks": [
+    {
+      "task_id": "R01",
+      "title": "Backend env bootstrap",
+      "detail": "Prepare Django runtime in backend virtual environment.",
+      "owner": "backend-worker",
+      "actions": [
+        {
+          "type": "run_cmd",
+          "cwd": ".",
+          "command": "powershell -ExecutionPolicy Bypass -File backend/scripts/venv.ps1",
+          "timeout_ms": 600000
+        }
+      ]
+    },
+    {
+      "task_id": "R02",
+      "title": "Backend test verify",
+      "detail": "Run backend tests using explicit venv interpreter.",
+      "owner": "backend-worker",
+      "actions": [
+        {
+          "type": "run_cmd",
+          "cwd": ".",
+          "command": "backend\\.venv\\Scripts\\python.exe backend/manage.py test",
+          "timeout_ms": 600000
+        }
+      ]
+    },
+    {
+      "task_id": "R03",
+      "title": "Frontend scoped lint",
+      "detail": "Run lint on src scope first to avoid environment noise.",
+      "owner": "frontend-worker",
+      "actions": [
+        {
+          "type": "run_cmd",
+          "cwd": ".",
+          "command": "npm run lint:stabilize",
+          "timeout_ms": 600000
+        }
+      ]
+    },
+    {
+      "task_id": "R04",
+      "title": "Frontend build verify",
+      "detail": "Run build check after lint scope pass.",
+      "owner": "frontend-worker",
+      "actions": [
+        {
+          "type": "run_cmd",
+          "cwd": ".",
+          "command": "npm run build",
+          "timeout_ms": 600000
+        }
+      ]
+    }
+  ]
+}

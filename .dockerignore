@@ -1,0 +1,15 @@
+node_modules/
+dist/
+backend/.venv/
+backend/__pycache__/
+backend/db.sqlite3
+backend/db.sqlite3.bak*
+backend/logs/
+backend/media/
+backend/staticfiles/
+backend/db_backups/
+**/__pycache__/
+**/*.pyc
+.git/
+.env
+*.env

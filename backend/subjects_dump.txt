@@ -1,0 +1,152 @@
+ID: 406 | Code: AUTO_MM0RY5N9_OQTC | Name: 자기자본사업비 | Level: 2 | Desc: 기관이 보유한 자체 재원을 활용하여 창의적·독자적으로 수행하는 사업의 직접 운영 비용
+ID: 407 | Code: AUTO_MM0SEZ4Z_1MKN | Name: 단지운영비 | Level: 2 | Desc: 관리 대상 입주 단지 및 부대 시설물의 안전하고 쾌적한 환경 유지를 위한 유지보수 및 운영 경비
+ID: 408 | Code: AUTO_MM0SHFIV_R161 | Name: 예비비 | Level: 3 | Desc: 예산 편성 시점에 예측할 수 없었던 불가피한 지출 수요에 신속히 대응하기 위해 마련된 예비 재원
+ID: 409 | Code: AUTO_MM0SHIXK_68XW | Name: 예비비 | Level: 4 | Desc: 예산 편성 시점에 예측할 수 없었던 불가피한 지출 수요에 신속히 대응하기 위해 마련된 예비 재원
+ID: 410 | Code: AUTO_MM0SII38_N5P0 | Name: 사업비(당해연도) | Level: 2 | Desc: 해당 회계연도 예산 편성 지침 및 지자체 승인에 따라 확정된 당해 연도 집행 사업비
+ID: 412 | Code: AUTO_MM0SII38_N5P0_1 | Name: 사업비(이월금) | Level: 2 | Desc: 전년도 예산 중 집행 사유 미발생 또는 시기 미도래로 법정 절차를 거쳐 이월된 사업 예산
+ID: 294 | Code: EXP_01 | Name: 재단운영비 | Level: 1 | Desc: 기관의 일반적인 관리 및 운영을 위해 소요되는 공통 경비
+ID: 306 | Code: EXP_01_00 | Name: 재단운영비지출 | Level: 2 | Desc: 기관 경영의 투명성과 효율성 제고를 위한 일상적인 행정 관리 및 운영 사무 비용
+ID: 312 | Code: EXP_01_01 | Name: 인건비 | Level: 3 | Desc: 임직원의 기본급, 제수당, 퇴직급여 및 법정 부담금(4대보험) 등 인적 자원 유지에 소요되는 총체적 비용
+ID: 322 | Code: EXP_01_01_01 | Name: 기본급 | Level: 4 | Desc: 1. 기본연봉
+ID: 334 | Code: EXP_01_01_02 | Name: 제수당 | Level: 4 | Desc: 1. 직책수당 2. 가족수당 3. 시간외수당 4. 맞춤형복지 5. 연월차 수당 6. 명절수당(설, 추석) 7. 식대보조수당
+ID: 341 | Code: EXP_01_01_03 | Name: 연금부담금 | Level: 4 | Desc: 1. 4대보험 법인부담금(국민, 건강, 고용, 산재)
+ID: 346 | Code: EXP_01_01_04 | Name: 퇴직급여 | Level: 4 | Desc: 1. 퇴직급여 지급액 2. 퇴직급여 충당금
+ID: 350 | Code: EXP_01_01_05 | Name: 성과급 | Level: 4 | Desc: 1. 성과급
+ID: 315 | Code: EXP_01_02 | Name: 일반운영비 | Level: 3 | Desc: 사무관리비, 공공요금, 임차료, 여비 및 소모품비 등 기관 운영의 연속성 확보를 위한 필수적 경비
+ID: 323 | Code: EXP_01_02_01 | Name: 임차료 | Level: 4 | Desc: 1. 복사기 임차료 2. 임대차 계약에 의한 토지, 건물, 시설, 장비, 물품 등 임차료 3. 버스, 승용차 등 차량 임차료
+ID: 335 | Code: EXP_01_02_02 | Name: 여비교통비 | Level: 4 | Desc: 1. 국내외 출장 여비 2. 고속도로 통행료
+ID: 342 | Code: EXP_01_02_03 | Name: 도서인쇄비 | Level: 4 | Desc: 1. 업무수행에 따른 일체의 인쇄물(복사,인쇄) 및 유인물의 제작비 2. 신문 구독료 3. 도서 및 간행물 구입비
+ID: 347 | Code: EXP_01_02_04 | Name: 통신비 | Level: 4 | Desc: 1. 전화요금, 회선 사용료 2. 우편물 발송요금
+ID: 351 | Code: EXP_01_02_05 | Name: 세금과공과(목적) | Level: 4 | Desc: 1. 임원등기 등록세 2. 주민세 3. 면허세 4. 종업원 분 주민세
+ID: 354 | Code: EXP_01_02_06 | Name: 보험료(목적) | Level: 4 | Desc: 1. 신원보증보험료 2. 법인차량 운전자 보험료 3. 환경책임 보험료 4. 직원 단체보험 5. 연구종사자 보험
+ID: 357 | Code: EXP_01_02_07 | Name: 복리후생비 | Level: 4 | Desc: 1. 파견수당 2. 건강검진비 3. 직원 기념일 축하 4. 사내동호회 지원 5. 문화행사관람권
+ID: 360 | Code: EXP_01_02_08 | Name: 소모품비 | Level: 4 | Desc: 1. 부서 내 일반사무비와 기타용품비 2. 재물조사대상이 아닌 물품으로 자산취득비에 계상하기는 부적합하다고 인정되는 소모성 물품구입비
+ID: 363 | Code: EXP_01_02_09 | Name: 회의행사비 | Level: 4 | Desc: 1. 위원회 등 운영수당(이사회 및 운영위원회 회의수당) 2. 행사 운영 일반운영비(초청장, 홍보유인물, 현수막 등)·시설/장비/물품 임차료·강사료 등 3. 기관 행사 중 전문성 요구 시 용역 가능
+ID: 366 | Code: EXP_01_02_10 | Name: 차량유지비 | Level: 4 | Desc: 1. 법인 차량 리스료 2. 법인 차량 관리비(유류대 외)
+ID: 369 | Code: EXP_01_02_11 | Name: 교육훈련비 | Level: 4 | Desc: 1. 교육훈련 관련 경비(교육비, 위탁비, 외래강사수당 등) 2. 법인 규정에 따른 대학원 등 교육과정 비용
+ID: 372 | Code: EXP_01_02_12 | Name: 지급수수료 | Level: 4 | Desc: 1. 업무대행/자문 수수료(세무·노무·법률 등), 회계감사 수수료 2. 범용 소프트웨어 구입 3. 협회비 등 법령/협약 부담금 4. 특허·상표 출원/유지 5. 시스템 사용료(회계, 채용, 평정 등)
+ID: 375 | Code: EXP_01_02_13 | Name: 장비유지관리비 | Level: 4 | Desc: 1. 장비 유지보수 2. 장비 운용 소모품 3. 폐기물 처리(의료폐기물, 유독물, 산업폐수 등) 4. 방사선 동위원소 관리
+ID: 378 | Code: EXP_01_02_14 | Name: 급식비 | Level: 4 | Desc: 1. 야근 등 시간외 근무 시 사용하는 경비
+ID: 381 | Code: EXP_01_02_15 | Name: 기관운영업무추진비 | Level: 4 | Desc: 1. 유관기관 대외활동, 경조사비 등에 사용하는 경비
+ID: 383 | Code: EXP_01_02_16 | Name: 부서운영업무추진비 | Level: 4 | Desc: 1. 부서운영 공통경비
+ID: 385 | Code: EXP_01_02_17 | Name: 사업추진업무추진비 | Level: 4 | Desc: 1. 사업추진 공통경비
+ID: 387 | Code: EXP_01_02_18 | Name: 기타잡비 | Level: 4 | Desc: 1. 예비비 성 경비
+ID: 317 | Code: EXP_01_03 | Name: 자산취득비(목적) | Level: 3 | Desc: 
+ID: 324 | Code: EXP_01_03_01 | Name: 비품 | Level: 4 | Desc: 1. 내용연수가 1년 이상되는 목적사업에 소요되는 비품 구입비
+ID: 296 | Code: EXP_02 | Name: 목적사업비 | Level: 1 | Desc: 기관의 고유 목적사업 수행 및 지원을 위해 직접적으로 소요되는 경비
+ID: 307 | Code: EXP_02_01 | Name: 인건비 | Level: 3 | Desc: 임직원의 기본급, 제수당, 퇴직급여 및 법정 부담금(4대보험) 등 인적 자원 유지에 소요되는 총체적 비용
+ID: 325 | Code: EXP_02_01_01 | Name: 인건비 | Level: 4 | Desc: 1. 인건비 예산(기본급, 제수당, 연금부담금, 퇴직충당금)
+ID: 416 | Code: EXP_02_01_01_1 | Name: 인건비 | Level: 4 | Desc: 임직원의 기본급, 제수당, 퇴직급여 및 법정 부담금(4대보험) 등 인적 자원 유지에 소요되는 총체적 비용
+ID: 413 | Code: EXP_02_01_1 | Name: 인건비 | Level: 3 | Desc: 임직원의 기본급, 제수당, 퇴직급여 및 법정 부담금(4대보험) 등 인적 자원 유지에 소요되는 총체적 비용
+ID: 313 | Code: EXP_02_02 | Name: 직접사업비 | Level: 3 | Desc: 사업 계획에 명시된 목표 달성을 위해 현장에서 직접적으로 소비되는 재료비, 인건비 및 용역비
+ID: 326 | Code: EXP_02_02_01 | Name: 임차료 | Level: 4 | Desc: 1. 복사기 임차료 2. 임대차 계약에 의한 토지, 건물, 시설, 장비, 물품 등 임차료 3. 버스, 승용차 등 차량 임차료
+ID: 417 | Code: EXP_02_02_01_1 | Name: 임차료 | Level: 4 | Desc: 
+ID: 336 | Code: EXP_02_02_02 | Name: 여비교통비 | Level: 4 | Desc: 1. 국내외 출장 여비 2. 고속도로 통행료
+ID: 418 | Code: EXP_02_02_02_1 | Name: 여비교통비 | Level: 4 | Desc: 
+ID: 343 | Code: EXP_02_02_03 | Name: 도서인쇄비 | Level: 4 | Desc: 1. 업무수행 인쇄물/유인물 제작비 2. 신문 구독료 3. 도서/간행물 구입비
+ID: 419 | Code: EXP_02_02_03_1 | Name: 도서인쇄비 | Level: 4 | Desc: 
+ID: 348 | Code: EXP_02_02_04 | Name: 광고선전비 | Level: 4 | Desc: 1. TV/신문/잡지 공고료(매체 이용료) 2. 불특정 다수 대상 선전 효과 목적 지출
+ID: 420 | Code: EXP_02_02_04_1 | Name: 광고선전비 | Level: 4 | Desc: 
+ID: 352 | Code: EXP_02_02_05 | Name: 소모품비 | Level: 4 | Desc: 1. 부서 일반사무비 및 기타용품비 2. 자산취득비 계상 부적합 소모성 물품 구입
+ID: 421 | Code: EXP_02_02_05_1 | Name: 소모품비 | Level: 4 | Desc: 
+ID: 355 | Code: EXP_02_02_06 | Name: 재료구입비 | Level: 4 | Desc: 1. 시약 및 재료 구입비
+ID: 422 | Code: EXP_02_02_06_1 | Name: 재료구입비 | Level: 4 | Desc: 
+ID: 358 | Code: EXP_02_02_07 | Name: 시제품제작비 | Level: 4 | Desc: 1. 시제품 및 시제품 제작 경비
+ID: 423 | Code: EXP_02_02_07_1 | Name: 시제품제작비 | Level: 4 | Desc: 
+ID: 361 | Code: EXP_02_02_08 | Name: 회의행사비 | Level: 4 | Desc: 1. 행사 운영 일반운영비(초청장, 홍보유인물, 현수막 등)·시설/장비/물품 임차료·강사료 등 2. 전문성 요구 시 용역 가능 3. 임시·일회성 시설물 구축 4. 평가/불특정다수 회의 시 다과·음식물
+ID: 424 | Code: EXP_02_02_08_1 | Name: 회의행사비 | Level: 4 | Desc: 
+ID: 364 | Code: EXP_02_02_09 | Name: 사업추진비 | Level: 4 | Desc: 1. 사업목적 회의 다과/음식물 제공(내부직원 회의 집행불가, 청탁금지법 한도의 1/2 내) 2. 사업관련 공식 회의·행사 비용
+ID: 425 | Code: EXP_02_02_09_1 | Name: 사업추진비 | Level: 4 | Desc: 
+ID: 414 | Code: EXP_02_02_1 | Name: 직접사업비 | Level: 3 | Desc: 사업 계획에 명시된 목표 달성을 위해 현장에서 직접적으로 소비되는 재료비, 인건비 및 용역비
+ID: 367 | Code: EXP_02_02_10 | Name: 교육훈련비 | Level: 4 | Desc: 1. 교육훈련경비
+ID: 426 | Code: EXP_02_02_10_1 | Name: 교육훈련비 | Level: 4 | Desc: 
+ID: 370 | Code: EXP_02_02_11 | Name: 지급수수료 | Level: 4 | Desc: 1. 회계감사수수료 2. 공공요금
+ID: 427 | Code: EXP_02_02_11_1 | Name: 지급수수료 | Level: 4 | Desc: 
+ID: 373 | Code: EXP_02_02_12 | Name: 전문가 활용비 | Level: 4 | Desc: 1. 전문가 활용비(자문, 평가수당 등)
+ID: 428 | Code: EXP_02_02_12_1 | Name: 전문가 활용비 | Level: 4 | Desc: 
+ID: 376 | Code: EXP_02_02_13 | Name: 장비유지관리비 | Level: 4 | Desc: 1. 장비 유지보수 2. 장비 운용 소모품 3. 폐기물 처리 4. 방사선 동위원소 관리
+ID: 429 | Code: EXP_02_02_13_1 | Name: 장비유지관리비 | Level: 4 | Desc: 
+ID: 379 | Code: EXP_02_02_14 | Name: 조사분석비 | Level: 4 | Desc: 1. 조사·강연·연구 등 용역 2. 신규사업 영향평가/타당성 검토용역
+ID: 430 | Code: EXP_02_02_14_1 | Name: 조사분석비 | Level: 4 | Desc: 
+ID: 382 | Code: EXP_02_02_15 | Name: 위탁용역비 | Level: 4 | Desc: 1. 대행사업 일부를 제3자 시행 2. 출자출연기관 고유(목적)사업 외부 위탁/대행 부담경비(기존 위탁관리비 혼재 → 위탁용역비로 통일)
+ID: 431 | Code: EXP_02_02_15_1 | Name: 위탁용역비 | Level: 4 | Desc: 
+ID: 384 | Code: EXP_02_02_16 | Name: 기업지원비 | Level: 4 | Desc: 1. 기업/민간에 대한 사업비 지원(선정평가를 통해 지원)
+ID: 432 | Code: EXP_02_02_16_1 | Name: 기업지원비 | Level: 4 | Desc: 
+ID: 386 | Code: EXP_02_02_17 | Name: 전출금 | Level: 4 | Desc: 1. 타기관(업) 전출금(확정 사업계획에 따라 참여기관(업) 지급)
+ID: 433 | Code: EXP_02_02_17_1 | Name: 전출금 | Level: 4 | Desc: 
+ID: 388 | Code: EXP_02_02_18 | Name: 시설비및부대비 | Level: 4 | Desc: 1. 용지조성(기본/실시설계, 시설비, 토지보상 등) 2. 토지매입 및 부대경비 3. 건물/구축물/기계장치 설치·조성 4. 자본적 수선 5. 공사감리 6. 취득/수선 부대경비 7. 직접공사 수용비·수수료 8. 행사장 시설/장치(1년 이상 사용 설치·구축)
+ID: 434 | Code: EXP_02_02_18_1 | Name: 시설비및부대비 | Level: 4 | Desc: 
+ID: 389 | Code: EXP_02_02_19 | Name: 연구수당 | Level: 4 | Desc: 1. 사업 참여인력 연구수당
+ID: 435 | Code: EXP_02_02_19_1 | Name: 연구수당 | Level: 4 | Desc: 
+ID: 390 | Code: EXP_02_02_20 | Name: 반환금 | Level: 4 | Desc: 1. 정산잔액 반환금
+ID: 436 | Code: EXP_02_02_20_1 | Name: 반환금 | Level: 4 | Desc: 
+ID: 391 | Code: EXP_02_02_21 | Name: 유지관리비 | Level: 4 | Desc: 1. 시설유지 경비(시설용역비, 유지보수료 등)
+ID: 437 | Code: EXP_02_02_21_1 | Name: 유지관리비 | Level: 4 | Desc: 
+ID: 392 | Code: EXP_02_02_22 | Name: 수도광열비 | Level: 4 | Desc: 1. 전기료, 가스료, 상하수도료 등
+ID: 438 | Code: EXP_02_02_22_1 | Name: 수도광열비 | Level: 4 | Desc: 
+ID: 393 | Code: EXP_02_02_23 | Name: 자산취득비 | Level: 4 | Desc: 1. 내용연수 1년 이상 목적사업 비품 구입비
+ID: 439 | Code: EXP_02_02_23_1 | Name: 자산취득비 | Level: 4 | Desc: 내용연수가 1년 이상이고 취득가액이 일정 기준 이상인 토지, 건물, 기계장치 및 비품 등의 확보 비용
+ID: 316 | Code: EXP_02_03 | Name: 간접사업비 | Level: 3 | Desc: 개별 사업의 원활한 수행을 측면 지원하기 위해 기관 전체적으로 소요되는 공통 관리 성격의 비용
+ID: 327 | Code: EXP_02_03_01 | Name: 간접사업비 | Level: 4 | Desc: 1. 기관공통경비로 사용하는 협약서 상의 간접비
+ID: 440 | Code: EXP_02_03_01_1 | Name: 간접사업비 | Level: 4 | Desc: 개별 사업의 원활한 수행을 측면 지원하기 위해 기관 전체적으로 소요되는 공통 관리 성격의 비용
+ID: 415 | Code: EXP_02_03_1 | Name: 간접사업비 | Level: 3 | Desc: 개별 사업의 원활한 수행을 측면 지원하기 위해 기관 전체적으로 소요되는 공통 관리 성격의 비용
+ID: 298 | Code: EXP_03 | Name: 자기자본사업 지출 | Level: 1 | Desc: 기관의 자기자본(자체재원)을 투입하여 수행하는 사업 관련 지출
+ID: 308 | Code: EXP_03_01 | Name: 직접사업비 | Level: 3 | Desc: 사업 계획에 명시된 목표 달성을 위해 현장에서 직접적으로 소비되는 재료비, 인건비 및 용역비
+ID: 328 | Code: EXP_03_01_01 | Name: 펀드조성출자금 | Level: 4 | Desc: 1. 펀드조성출자금
+ID: 337 | Code: EXP_03_01_02 | Name: (사업명)현금출연금 | Level: 4 | Desc: 1. 수탁사업 법인 현금 출연금
+ID: 300 | Code: EXP_04 | Name: 수익사업지출 | Level: 1 | Desc: 영리 또는 수익 창출을 목적으로 운영하는 사업의 제반 경비
+ID: 309 | Code: EXP_04_01 | Name: 단지관리비 | Level: 3 | Desc: 
+ID: 329 | Code: EXP_04_01_01 | Name: 시설관리비 | Level: 4 | Desc: 1. 시설관리용역비 2. 화장실/실험실 방향제 임대료 3. 시설 렌탈비(비데, 정수기 등)
+ID: 338 | Code: EXP_04_01_02 | Name: 청소관리비 | Level: 4 | Desc: 1. 청소관리용역비 2. 위생 및 청소용품 구입비
+ID: 344 | Code: EXP_04_01_03 | Name: 방범관리비 | Level: 4 | Desc: 1. 방범관리용역비
+ID: 349 | Code: EXP_04_01_04 | Name: 조경관리비 | Level: 4 | Desc: 1. 녹화 관리작업비
+ID: 353 | Code: EXP_04_01_05 | Name: 수선유지비 | Level: 4 | Desc: 1. 건물/기계장치 수선유지비(재료구입 포함) ※ 장비수선은 목적사업 '장비유지관리비'로 편성
+ID: 356 | Code: EXP_04_01_06 | Name: 환경안전보건관리비 | Level: 4 | Desc: 1. 안전보건관리 대행수수료 2. 수변전설비 검사대행 3. 폐기물 처리(운반비 포함) 4. 안전보건 교육비 5. 안전보건 보험료 6. 상비약 구입비
+ID: 359 | Code: EXP_04_01_07 | Name: 승강기유지비 | Level: 4 | Desc: 1. 승강기 유지보수비 및 검사비
+ID: 362 | Code: EXP_04_01_08 | Name: 정보이용시스템유지비 | Level: 4 | Desc: 1. 인터넷 사용료 2. 전산장비 유지보수비 3. 클라우드 사용료 등
+ID: 365 | Code: EXP_04_01_09 | Name: 전기료 | Level: 4 | Desc: 1. 전기요금
+ID: 368 | Code: EXP_04_01_10 | Name: 도시가스료 | Level: 4 | Desc: 1. 도시가스요금
+ID: 371 | Code: EXP_04_01_11 | Name: 상하수도료 | Level: 4 | Desc: 1. 상하수도요금
+ID: 374 | Code: EXP_04_01_12 | Name: 음식물수거비 | Level: 4 | Desc: 1. 음식물 수거비용
+ID: 377 | Code: EXP_04_01_13 | Name: 세금과공과(단지) | Level: 4 | Desc: 1. 건물/토지 재산세 2. 재산분 주민세 3. 종합부동산세 4. 기본재산 등록면허세 5. 간주임대료(부가가치세)
+ID: 380 | Code: EXP_04_01_14 | Name: 보험료 | Level: 4 | Desc: 1. 재산 종합보험료(건물, 집기 등)
+ID: 314 | Code: EXP_04_02 | Name: 자산취득비(수익) | Level: 3 | Desc: 
+ID: 330 | Code: EXP_04_02_01 | Name: 건물 | Level: 4 | Desc: 1. 건물
+ID: 339 | Code: EXP_04_02_02 | Name: 비품 | Level: 4 | Desc: 1. 비품
+ID: 301 | Code: EXP_05 | Name: 사업외비용 | Level: 1 | Desc: 영업활동과 직접 관련 없이 발생하는 비용 및 예비비
+ID: 310 | Code: EXP_05_01 | Name: 예비비 | Level: 2 | Desc: 1. 예비비
+ID: 478 | Code: AUTO_MM0TEY5J_W5JR | Name: 전입금 | Level: 4 | Desc: 지방자치단체 일반회계 또는 특별회계로부터 기관의 운영이나 사업 지원을 위해 이전받는 자금
+ID: 479 | Code: AUTO_MM0TTDT8_RHCU | Name: 이월금(전기) | Level: 3 | Desc: 
+ID: 480 | Code: AUTO_MM0TTLY0_2A1L | Name: 이월금(차기) | Level: 3 | Desc: 
+ID: 481 | Code: AUTO_MM0TUMGU_UKL8 | Name: 국비 | Level: 4 | Desc: 국가 예산 지침에 따라 중앙정부로부터 특정 사업의 수행을 목적으로 교부받는 국고보조금
+ID: 482 | Code: AUTO_MM0TUQDD_M50X | Name: 도비 | Level: 4 | Desc: 광역지방자치단체(도)의 예산으로 편성되어 지역 내 사업 활성화를 위해 지원받는 보조금
+ID: 483 | Code: AUTO_MM0TUTCR_5F10 | Name: 시비 | Level: 4 | Desc: 기초지방자치단체(시)의 자체 예산으로 편성되어 관할 구역 내 사업 추진을 위해 확보한 자금
+ID: 484 | Code: AUTO_MM0TUWPL_BBI3 | Name: 기타 지차제 | Level: 4 | Desc: 
+ID: 485 | Code: AUTO_MM0TV25L_CQMH | Name: 이월금 | Level: 4 | Desc: 
+ID: 486 | Code: AUTO_MM0TV550_KDNW | Name: 이월금 | Level: 4 | Desc: 
+ID: 451 | Code: INC_01 | Name: 사업수입 | Level: 1 | Desc: 기관의 주된 사업 활동(목적사업, 수익사업 등)을 통해 직접적으로 발생하는 모든 수입
+ID: 455 | Code: INC_01_01 | Name: 재단운영수입 | Level: 2 | Desc: 지방자치단체 등으로부터 기관의 기초 체력 유지 및 운영 보조를 위해 교부받는 전입 수입
+ID: 460 | Code: INC_01_01_01 | Name: 당해연도 | Level: 3 | Desc: 
+ID: 459 | Code: INC_01_02 | Name: 목적사업수입 | Level: 2 | Desc: 국가, 지자체 또는 외부 기관으로부터 특정 사업을 위탁받아 수행하기 위해 확보하는 사업 예산
+ID: 461 | Code: INC_01_02_01 | Name: 당해연도 | Level: 3 | Desc: 당해연도 지출할 예산
+ID: 469 | Code: INC_01_02_01_01 | Name: 국비 | Level: 4 | Desc: 국가로부터 교부받은 예산
+ID: 472 | Code: INC_01_02_01_02 | Name: 도비 | Level: 4 | Desc: 광역지방자치단체로부터 교부받은 예산
+ID: 474 | Code: INC_01_02_01_03 | Name: 시(군)비 | Level: 4 | Desc: 기초지방자치단체로부터 교부받은 예산
+ID: 476 | Code: INC_01_02_01_04 | Name: 민간 | Level: 4 | Desc: 그 외 민간으로부터 받은 예산
+ID: 465 | Code: INC_01_02_02 | Name: 이월금 | Level: 3 | Desc: 차년도로 이월하여 집행할 예산
+ID: 470 | Code: INC_01_02_02_01 | Name: 국비 | Level: 4 | Desc: 국가로부터 교부받은 예산
+ID: 473 | Code: INC_01_02_02_02 | Name: 도비 | Level: 4 | Desc: 광역지방자치단체로부터 교부받은 예산
+ID: 475 | Code: INC_01_02_02_03 | Name: 시(군)비 | Level: 4 | Desc: 기초지방자치단체로부터 교부받은 예산
+ID: 477 | Code: INC_01_02_02_04 | Name: 민간 | Level: 4 | Desc: 그 외 민간으로부터 받은 예산
+ID: 452 | Code: INC_02 | Name: 자기자본수입 | Level: 2 | Desc: 
+ID: 456 | Code: INC_02_01 | Name: 재단출연금 | Level: 3 | Desc: 재단 자기자본을 투입하여 사업을 수행하기 위한 재단 출연금
+ID: 453 | Code: INC_03 | Name: 수익사업수입 | Level: 2 | Desc: 
+ID: 457 | Code: INC_03_00 | Name: 수익사업수입 | Level: 3 | Desc: 
+ID: 462 | Code: INC_03_01 | Name: 임대료수입 | Level: 4 | Desc: 건물 임대료 수입
+ID: 466 | Code: INC_03_02 | Name: 관리비수입 | Level: 4 | Desc: 건물 관리비 수입
+ID: 467 | Code: INC_03_03 | Name: 이자수입 | Level: 4 | Desc: 사업비 이 외의 법인 금융 자산에 대한 이자수입
+ID: 468 | Code: INC_03_04 | Name: 장비활용수입 | Level: 4 | Desc: 장비를 활용한 수입 금액(장비임대, 분석료 등)
+ID: 454 | Code: INC_04 | Name: 사업외수입 | Level: 1 | Desc: 주된 사업 활동 이외의 금융 활동이나 일시적인 원인으로 발생하는 비경상적 수입
+ID: 458 | Code: INC_04_00 | Name: 사업외수입 | Level: 2 | Desc: 
+ID: 463 | Code: INC_04_01 | Name: 기타사업외수입 | Level: 3 | Desc: 
+ID: 471 | Code: INC_04_01_01 | Name: 잡수익 | Level: 4 | Desc: 법인의 경상적인 영업활동 이외의 부수적인 활동에서 소액 또는 일시적으로 발생하는 기타 수입

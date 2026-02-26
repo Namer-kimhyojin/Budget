@@ -1,0 +1,51 @@
+{
+  "goal": "budget feature workflow template",
+  "tasks": [
+    {
+      "task_id": "T01",
+      "title": "Backend code change",
+      "detail": "Patch API behavior in Django backend",
+      "owner": "backend-worker",
+      "actions": [
+        {
+          "type": "replace_text",
+          "path": "backend/budget_mgmt/views.py",
+          "old": "__OLD_BACKEND_SNIPPET__",
+          "new": "__NEW_BACKEND_SNIPPET__"
+        },
+        {
+          "type": "run_cmd",
+          "cwd": "backend",
+          "command": "py -3 manage.py test budget_mgmt.tests.CalcExpressionApiTest",
+          "timeout_ms": 300000
+        }
+      ]
+    },
+    {
+      "task_id": "T02",
+      "title": "Frontend code change",
+      "detail": "Patch menu UI behavior in React frontend",
+      "owner": "frontend-worker",
+      "actions": [
+        {
+          "type": "replace_text",
+          "path": "src/pages/menu/pages/Dashboard/index.jsx",
+          "old": "__OLD_FRONTEND_SNIPPET__",
+          "new": "__NEW_FRONTEND_SNIPPET__"
+        },
+        {
+          "type": "run_cmd",
+          "cwd": ".",
+          "command": "npm run lint",
+          "timeout_ms": 300000
+        },
+        {
+          "type": "run_cmd",
+          "cwd": ".",
+          "command": "npm run build",
+          "timeout_ms": 300000
+        }
+      ]
+    }
+  ]
+}

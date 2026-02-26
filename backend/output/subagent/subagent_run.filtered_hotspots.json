@@ -1,0 +1,339 @@
+{
+  "goal": "split overloaded files for maintainability",
+  "execution_mode": "dry-run",
+  "parallel_workers": 2,
+  "file_conflicts": [],
+  "plan": [
+    {
+      "task_id": "T01",
+      "title": "Split backend views monolith",
+      "detail": "Refactor backend/budget_mgmt/views.py by domain modules (auth, org, subject, entry, version, workflow).",
+      "owner": "backend-worker",
+      "actions": [
+        {
+          "type": "write_file",
+          "path": "docs/maintenance/split_plans/views_py.plan.md",
+          "content": "# Split Plan: backend/budget_mgmt/views.py\n\n- Split by API domain into package modules.\n- Move shared validators/helpers to common.py.\n- Keep class names and routes stable.\n- Add regression tests per domain endpoint.\n"
+        }
+      ]
+    },
+    {
+      "task_id": "T02",
+      "title": "Split ledger sheet renderer",
+      "detail": "Refactor src/pages/core/traditionalLedger/components/LedgerSheetSection.jsx into render sections and row components.",
+      "owner": "frontend-worker",
+      "actions": [
+        {
+          "type": "write_file",
+          "path": "docs/maintenance/split_plans/ledger_sheet_section.plan.md",
+          "content": "# Split Plan: LedgerSheetSection.jsx\n\n- Extract header/colgroup builder.\n- Extract Jang/Gwan/Hang row components.\n- Extract Mok/detail row renderer.\n- Keep drag-and-drop handlers in a dedicated hook.\n"
+        }
+      ]
+    },
+    {
+      "task_id": "T03",
+      "title": "Split export service",
+      "detail": "Refactor backend/budget_mgmt/services/budget_book_export.py into collector, writers, and template_overrides modules.",
+      "owner": "backend-worker",
+      "actions": [
+        {
+          "type": "write_file",
+          "path": "docs/maintenance/split_plans/budget_book_export.plan.md",
+          "content": "# Split Plan: budget_book_export.py\n\n- Split data collection/aggregation from workbook writers.\n- Move template-specific overrides to separate module(s).\n- Add fixture-based tests for each writer.\n"
+        }
+      ]
+    },
+    {
+      "task_id": "T04",
+      "title": "Split app shell",
+      "detail": "Refactor src/App.jsx into app shell, session hook, and route composition.",
+      "owner": "frontend-worker",
+      "actions": [
+        {
+          "type": "write_file",
+          "path": "docs/maintenance/split_plans/app_shell.plan.md",
+          "content": "# Split Plan: App.jsx\n\n- Extract auth/session bootstrap hook.\n- Extract route/menu composition to AppRoutes.\n- Keep App.jsx as shell composer only.\n"
+        }
+      ]
+    },
+    {
+      "task_id": "T05",
+      "title": "Split ledger controller hook",
+      "detail": "Refactor useTraditionalLedgerController.js into orchestration + side-effect hooks.",
+      "owner": "frontend-worker",
+      "actions": [
+        {
+          "type": "write_file",
+          "path": "docs/maintenance/split_plans/use_traditional_ledger_controller.plan.md",
+          "content": "# Split Plan: useTraditionalLedgerController.js\n\n- Separate loading/effect hooks from interaction logic.\n- Extract overlay prop assembler.\n- Preserve API of returned props object.\n"
+        }
+      ]
+    },
+    {
+      "task_id": "T06",
+      "title": "Split subject management container",
+      "detail": "Refactor SubjectManagementView.jsx and useSubjectManagement.js by feature slices.",
+      "owner": "frontend-worker",
+      "actions": [
+        {
+          "type": "write_file",
+          "path": "docs/maintenance/split_plans/subject_management.plan.md",
+          "content": "# Split Plan: SubjectManagementView.jsx + useSubjectManagement.js\n\n- Split org tree actions, subject row drafts, and modal orchestration.\n- Keep page layer thin and declarative.\n"
+        }
+      ]
+    },
+    {
+      "task_id": "T07",
+      "title": "Verification backend",
+      "detail": "Run backend verification commands after split.",
+      "owner": "backend-worker",
+      "actions": [
+        {
+          "type": "run_cmd",
+          "cwd": "backend",
+          "command": "python manage.py test",
+          "timeout_ms": 300000
+        }
+      ]
+    },
+    {
+      "task_id": "T08",
+      "title": "Verification frontend",
+      "detail": "Run frontend verification commands after split.",
+      "owner": "frontend-worker",
+      "actions": [
+        {
+          "type": "run_cmd",
+          "cwd": ".",
+          "command": "npm run lint && npm run build",
+          "timeout_ms": 300000
+        }
+      ]
+    }
+  ],
+  "planner": {
+    "agent": "planner",
+    "task_id": "PLAN",
+    "ok": true,
+    "summary": "goal 'split overloaded files for maintainability' converted into executable task units.",
+    "output": {
+      "goal": "split overloaded files for maintainability"
+    },
+    "elapsed_ms": 0
+  },
+  "workers": [
+    {
+      "agent": "backend-worker",
+      "task_id": "T01",
+      "ok": true,
+      "summary": "backend-worker completed 1/1 actions",
+      "output": {
+        "mode": "dry-run",
+        "action_results": [
+          {
+            "ok": true,
+            "type": "write_file",
+            "skipped": true,
+            "path": "docs\\maintenance\\split_plans\\views_py.plan.md",
+            "bytes": 217,
+            "index": 1
+          }
+        ],
+        "touched_paths": [
+          "docs\\maintenance\\split_plans\\views_py.plan.md"
+        ],
+        "risks": []
+      },
+      "elapsed_ms": 2
+    },
+    {
+      "agent": "frontend-worker",
+      "task_id": "T02",
+      "ok": true,
+      "summary": "frontend-worker completed 1/1 actions",
+      "output": {
+        "mode": "dry-run",
+        "action_results": [
+          {
+            "ok": true,
+            "type": "write_file",
+            "skipped": true,
+            "path": "docs\\maintenance\\split_plans\\ledger_sheet_section.plan.md",
+            "bytes": 200,
+            "index": 1
+          }
+        ],
+        "touched_paths": [
+          "docs\\maintenance\\split_plans\\ledger_sheet_section.plan.md"
+        ],
+        "risks": []
+      },
+      "elapsed_ms": 1
+    },
+    {
+      "agent": "backend-worker",
+      "task_id": "T03",
+      "ok": true,
+      "summary": "backend-worker completed 1/1 actions",
+      "output": {
+        "mode": "dry-run",
+        "action_results": [
+          {
+            "ok": true,
+            "type": "write_file",
+            "skipped": true,
+            "path": "docs\\maintenance\\split_plans\\budget_book_export.plan.md",
+            "bytes": 197,
+            "index": 1
+          }
+        ],
+        "touched_paths": [
+          "docs\\maintenance\\split_plans\\budget_book_export.plan.md"
+        ],
+        "risks": []
+      },
+      "elapsed_ms": 0
+    },
+    {
+      "agent": "frontend-worker",
+      "task_id": "T04",
+      "ok": true,
+      "summary": "frontend-worker completed 1/1 actions",
+      "output": {
+        "mode": "dry-run",
+        "action_results": [
+          {
+            "ok": true,
+            "type": "write_file",
+            "skipped": true,
+            "path": "docs\\maintenance\\split_plans\\app_shell.plan.md",
+            "bytes": 148,
+            "index": 1
+          }
+        ],
+        "touched_paths": [
+          "docs\\maintenance\\split_plans\\app_shell.plan.md"
+        ],
+        "risks": []
+      },
+      "elapsed_ms": 0
+    },
+    {
+      "agent": "frontend-worker",
+      "task_id": "T05",
+      "ok": true,
+      "summary": "frontend-worker completed 1/1 actions",
+      "output": {
+        "mode": "dry-run",
+        "action_results": [
+          {
+            "ok": true,
+            "type": "write_file",
+            "skipped": true,
+            "path": "docs\\maintenance\\split_plans\\use_traditional_ledger_controller.plan.md",
+            "bytes": 180,
+            "index": 1
+          }
+        ],
+        "touched_paths": [
+          "docs\\maintenance\\split_plans\\use_traditional_ledger_controller.plan.md"
+        ],
+        "risks": []
+      },
+      "elapsed_ms": 0
+    },
+    {
+      "agent": "frontend-worker",
+      "task_id": "T06",
+      "ok": true,
+      "summary": "frontend-worker completed 1/1 actions",
+      "output": {
+        "mode": "dry-run",
+        "action_results": [
+          {
+            "ok": true,
+            "type": "write_file",
+            "skipped": true,
+            "path": "docs\\maintenance\\split_plans\\subject_management.plan.md",
+            "bytes": 178,
+            "index": 1
+          }
+        ],
+        "touched_paths": [
+          "docs\\maintenance\\split_plans\\subject_management.plan.md"
+        ],
+        "risks": []
+      },
+      "elapsed_ms": 0
+    },
+    {
+      "agent": "backend-worker",
+      "task_id": "T07",
+      "ok": true,
+      "summary": "backend-worker completed 1/1 actions",
+      "output": {
+        "mode": "dry-run",
+        "action_results": [
+          {
+            "ok": true,
+            "type": "run_cmd",
+            "skipped": true,
+            "command": "python manage.py test",
+            "cwd": "backend",
+            "index": 1
+          }
+        ],
+        "touched_paths": [],
+        "risks": []
+      },
+      "elapsed_ms": 6
+    },
+    {
+      "agent": "frontend-worker",
+      "task_id": "T08",
+      "ok": true,
+      "summary": "frontend-worker completed 1/1 actions",
+      "output": {
+        "mode": "dry-run",
+        "action_results": [
+          {
+            "ok": true,
+            "type": "run_cmd",
+            "skipped": true,
+            "command": "npm run lint && npm run build",
+            "cwd": ".",
+            "index": 1
+          }
+        ],
+        "touched_paths": [],
+        "risks": []
+      },
+      "elapsed_ms": 5
+    }
+  ],
+  "review": {
+    "agent": "reviewer",
+    "task_id": "REVIEW",
+    "ok": true,
+    "summary": "review gate completed",
+    "output": {
+      "checks": [
+        "T01: backend-worker completed 1/1 actions",
+        "T02: frontend-worker completed 1/1 actions",
+        "T03: backend-worker completed 1/1 actions",
+        "T04: frontend-worker completed 1/1 actions",
+        "T05: frontend-worker completed 1/1 actions",
+        "T06: frontend-worker completed 1/1 actions",
+        "T07: backend-worker completed 1/1 actions",
+        "T08: frontend-worker completed 1/1 actions"
+      ],
+      "failed_tasks": [],
+      "risks": [],
+      "next_actions": [
+        "merge and run full test suite"
+      ]
+    },
+    "elapsed_ms": 0
+  },
+  "total_elapsed_ms": 12
+}
